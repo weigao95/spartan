@@ -166,14 +166,6 @@ group "8.ROS" {
     exec = "roslaunch fusion_server fusion_server.launch camera_serial_number:=carmine_1";
     host = "localhost";
   }
-
-  cmd "9.razer_hydra" {
-    exec = "roslaunch razer_hydra hydra.launch";
-    host = "localhost";
-  }
-
-
-
 }
 
 
