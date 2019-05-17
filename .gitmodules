@@ -47,3 +47,6 @@
 [submodule "src/catkin_projects/mrcnn_ros"]
 	path = src/catkin_projects/mrcnn_ros
 	url = git@github.com:weigao95/mrcnn_ros.git
+[submodule "src/catkin_projects/mankey_ros"]
+	path = src/catkin_projects/mankey_ros
+	url = git@github.com:weigao95/mankey_ros.git
