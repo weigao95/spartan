@@ -38,6 +38,7 @@ function kip()
 
 function use_kpam_all()
 {
+	use_spartan_ros
     export PYTHONPATH="$SPARTAN_SOURCE_DIR/src/catkin_projects/mankey_ros:${PYTHONPATH}"
 	export PYTHONPATH="$SPARTAN_SOURCE_DIR/src/catkin_projects/mrcnn_ros:${PYTHONPATH}"
 	export PYTHONPATH="$SPARTAN_SOURCE_DIR/src/catkin_projects/fill_it_ros:${PYTHONPATH}"
