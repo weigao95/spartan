@@ -44,3 +44,6 @@
 [submodule "src/catkin_projects/razer_hydra_ros"]
 	path = src/catkin_projects/razer_hydra_ros
 	url = git@github.com:aleeper/razer_hydra_ros
+[submodule "src/catkin_projects/mrcnn_ros"]
+	path = src/catkin_projects/mrcnn_ros
+	url = git@github.com:weigao95/mrcnn_ros.git
