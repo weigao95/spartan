@@ -11,4 +11,4 @@ pip install open3d-python==0.5.0.0
 
 # For maskrcnn, note that maskrcnn should be installed after container lanunching
 pip install pycocotools
-pip install ninja yacs cython matplotlib tqdm
+pip install ninja yacs cython matplotlib tqdm typing
