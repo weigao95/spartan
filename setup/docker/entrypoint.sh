@@ -36,13 +36,14 @@ function kip()
 	use_ros && use_spartan && kuka_iiwa_procman
 }
 
-function use_kpam_all()
+function use_kpam()
 {
 	use_spartan_ros
     export PYTHONPATH="$SPARTAN_SOURCE_DIR/src/catkin_projects/mankey_ros:${PYTHONPATH}"
 	export PYTHONPATH="$SPARTAN_SOURCE_DIR/src/catkin_projects/mrcnn_ros:${PYTHONPATH}"
 	export PYTHONPATH="$SPARTAN_SOURCE_DIR/src/catkin_projects/fill_it_ros:${PYTHONPATH}"
 	export PYTHONPATH="$SPARTAN_SOURCE_DIR/src/catkin_projects/kpam_coordinator:${PYTHONPATH}"
+	export PYTHONPATH="$SPARTAN_SOURCE_DIR/src/catkin_projects/kplan_ros:${PYTHONPATH}"
 }
 
 export -f use_spartan
@@ -50,7 +51,7 @@ export -f use_ros
 export -f use_spartan_ros
 export -f use_handical
 export -f kip
-export -f use_kpam_all
+export -f use_kpam
 
 
 
