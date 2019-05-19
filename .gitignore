@@ -9,3 +9,6 @@
 /calibration_data
 *snopt.out
 
+# The developmented package
+/src/catkin_projects/kplan_ros
+/src/catkin_projects/kpam_coordinator
