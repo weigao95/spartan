@@ -103,9 +103,9 @@ if __name__ == "__main__":
         cmd += " -p 1500:1500/udp "  # expose udp ports for schunk
         cmd += " -p 1501:1501/udp "  # expose udp ports for schunk
 
-    if args.host_network:
-        cmd += " --network=host "
-
+    # if args.host_network:
+    cmd += " --network=host "
+    
     cmd += " " + args.passthrough + " "
 
     cmd += " --privileged -v /dev/bus/usb:/dev/bus/usb "  # allow usb access
