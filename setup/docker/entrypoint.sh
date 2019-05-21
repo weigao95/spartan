@@ -46,6 +46,11 @@ function use_kpam()
 	export PYTHONPATH="$SPARTAN_SOURCE_DIR/src/catkin_projects/kplan_ros:${PYTHONPATH}"
 }
 
+function use_kpam_all()
+{
+	use_ros && use_spartan && use_kpam
+}
+
 export -f use_spartan
 export -f use_ros
 export -f use_spartan_ros
