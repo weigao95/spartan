@@ -57,7 +57,7 @@ export -f use_spartan_ros
 export -f use_handical
 export -f kip
 export -f use_kpam
-
+export -f use_kpam_all
 
 
 exec "$@"
