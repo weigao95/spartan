@@ -22,6 +22,8 @@ iiwa-workstation:
 paladin-45:
   manuelli:
     path_to_data_directory: '/mnt/hdd/data'
+  wei:
+    path_to_data_directory: '/home/wei/data'
 
 paladin-44:
   manuelli:
