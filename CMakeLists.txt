@@ -259,18 +259,6 @@ if (WITH_TRIMESH)
     )
 endif()
 
-# if (OFF)
-#   ExternalProject_Add(ObjectDetection
-#     SOURCE_DIR ${source_dir}/src/ObjectDetection
-#     BINARY_DIR ${build_dir}/ObjectDetection
-#     BUILD_ALWAYS 1
-#     CMAKE_CACHE_ARGS
-#       ${CMAKE_ARGS_FOR_EXTERNALS}
-#     DEPENDS director RemoteTreeViewer
-#   )
-
-# endif()
-
 
 if (WITH_ROS)
   if ((NOT DEFINED ENV{CMAKE_PREFIX_PATH}) OR (NOT $ENV{CMAKE_PREFIX_PATH} MATCHES ".*ros.*"))
