@@ -50,3 +50,6 @@
 [submodule "src/catkin_projects/fill_it_ros"]
 	path = src/catkin_projects/fill_it_ros
 	url = git@github.com:weigao95/fill_it_ros.git
+[submodule "drake"]
+	path = drake
+	url = git@github.com:weigao95/drake.git
